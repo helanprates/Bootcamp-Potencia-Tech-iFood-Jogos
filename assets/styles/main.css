@@ -56,3 +56,30 @@
     margin: auto;
     border-radius: 10px;
 }   
+ 
+
+@media screen and (max-width: 800px) {
+
+    .panel {
+        margin-top: 1rem;
+    }
+
+    .square {
+    height: 130px;
+    width: 130px;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .menu h2{
+        font-size: 1rem;
+    }
+
+    .retry {
+        width: 150px;
+        height: 40px;
+        font-size: .6rem;
+    }
+}

@@ -30,7 +30,7 @@ function retry(){
 
 function playSound(audioName){
     let audio = new Audio(`./assets/audios/${audioName}` );
-    audio.volume = 0.2;
+    audio.volume = 0.4;
     audio.play();
 }
 
