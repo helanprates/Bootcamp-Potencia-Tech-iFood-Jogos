@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid gold;
+}
+
+.title{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.square{
+    height: 180px;
+    border: 1px solid black;
+    width: 180px;
+    background-color: aquamarine;
+}
+
+.enemy {
+    background-image: url("../images/Veras.png");
+    background-size: cover;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retry {
+    background:#ffffff;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10px;
+}   
